@@ -1,0 +1,50 @@
+body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-size: $fontSize-base;
+  line-height: 1.5;
+  font-family: $font-family-base;
+  font-weight: 400;
+  color: $color-base;
+  background-color: $color-base-lighter;
+}
+
+// Button
+button {
+  border: none;
+  background-color: transparent;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+// Material icons
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}

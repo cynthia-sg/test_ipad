@@ -1,0 +1,20 @@
+// Colors
+$color-1: rgba(61, 117, 61, 1);
+$color-base: rgba(51, 51, 51, 1);
+$color-base-light: lighten($color-base, 30%);
+$color-base-lighter: lighten($color-base, 70%);
+$white: rgba(255, 255, 255, 1);
+
+// Fonts
+$fontSize-base: 16px;
+$fontSize-lg: 20px;
+$fontSize-xlg: 30px;
+$fontSize-sm: 12px;
+
+// Fonts - family
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Material+Icons');
+$font-family-base: 'Roboto', sans-serif;
+$font-family-icons: 'Material Icons';
+
+// Screens
+$screen-sm: 768px;
